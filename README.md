@@ -49,5 +49,7 @@ Example:
 
 * In `application.css`, add padding to the `body` element.
 * Set the imported google font to be the default font for the whole app.
-* Style a button and create a hover state and disabled state for it.
 * Create a header element that persists throughout the whole app.
+  * How does this affect the padding that we previously added to the `body` element?
+* Style a button and create a hover state and disabled state for it.
+* Create a colored background with a rounded border radius that has a list of artists on top it.
