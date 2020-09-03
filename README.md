@@ -21,7 +21,4 @@
 
 * In `application.css`, add padding to the `body` element.
 * Set the imported google font to be the default font for the whole app.
-
-
-
 * Style a button and create a hover state and disabled state for it.

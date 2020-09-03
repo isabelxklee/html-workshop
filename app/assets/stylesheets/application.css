@@ -14,9 +14,3 @@
  *= require_self
  */
 
- body {
-   font-family: "Syne";
-   padding: 100px;
-   background-color: blue;
-   color: white;
- }
