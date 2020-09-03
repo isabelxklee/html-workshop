@@ -2,26 +2,38 @@
 
 ## What is HTML and CSS?
 
-## Writing custom HTML/CSS to your Rails app
+## Where to write custom HTML/CSS in your Rails app
 * Add any meta data about your website in `app > views > layouts > application.html.erb`
 * Write your CSS in `app > assets > stylesheets > application.css`
 
-## Adding HTML meta data
-* title:
-* description: 
-* favicon: 
-* external links/dependencies: 
+## What goes in the HTML <head> tag?
+* Meta data
+* Links to external resources, like stylesheets, imported fonts, favicons, etc.
+
+## HTML meta data
+Why is it important to add meta data?
+* Accessibility
+* SEO
+
+Different types of meta data
+* Title:
+* Description: 
+* Language: 
+* Author: 
+* Keywords: 
+* Favicon: 
+* Character set: 
 
 ## CSS attributes
-#### Inheritance
+### Inheritance
 Sources:
 * [MDN web docs: Cascade and Inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 
-#### Selectors
+### Selectors
 
-#### Specificity
+### Specificity
 
-#### Easy to implement CSS themes
+### Easy to implement CSS themes
 * https://watercss.kognise.dev
 
 ## Accessibility 101
@@ -52,4 +64,4 @@ Example:
 * Create a header element that persists throughout the whole app.
   * How does this affect the padding that we previously added to the `body` element?
 * Style a button and create a hover state and disabled state for it.
-* Create a colored background with a rounded border radius that has a list of artists on top it.
+* Create a colored background with a rounded border radius on the `/artists` page. Create an unordered list with the artists' names on top of this colored background.
