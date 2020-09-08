@@ -1,6 +1,12 @@
 # Rails HTML/CSS Workshop
 
 ## What is HTML and CSS?
+HTML
+* HTML is the standard markup language for creating Web pages and it stands for Hyper Text Markup Language.
+* HTML describes the structure of a Web page.
+
+CSS
+* Cascading Style Sheets (CSS) is used to format the layout of a webpage. It describes how HTML elements are to be displayed on screen.
 
 ## Where to write custom HTML/CSS in your Rails app
 * Add any meta data about your website in `app > views > layouts > application.html.erb`
@@ -23,6 +29,16 @@ Different types of meta data
 * Keywords: 
 * Favicon: 
 * Character set: 
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a free HTML/CSS workshop.">
+  <meta name="keywords" content="HTML, CSS, coding, programming">
+  <meta name="author" content="Isabel K. Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
 
 ## CSS attributes
 ### Selectors
