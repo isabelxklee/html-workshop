@@ -27,3 +27,14 @@ a.header {
 a {
   color: black;
 }
+
+button {
+  margin: 30px 0px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 18px;
+}
