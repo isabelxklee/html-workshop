@@ -26,6 +26,55 @@ Different types of meta data
 
 ## CSS attributes
 ### Selectors
+Element
+* Elements are HTML objects that can be styled using CSS.
+
+Class
+* A `class` lets you identify multiple elements.
+
+```html
+<div class="section">
+  <p>Green vines attached to the trunk of the tree had wound themselves toward the top of the canopy. Ants used the vine as their private highway, avoiding all the creases and crags of the bark, to freely move at top speed from top to bottom or bottom to top depending on their current chore.</p>
+</div>
+
+<div class="section">
+  <p>She wanted rainbow hair. That's what she told the hairdresser. It should be deep rainbow colors, too. She wasn't interested in pastel rainbow hair. She wanted it deep and vibrant so there was no doubt that she had done this on purpose.</p>
+</div>
+```
+
+```css
+div.section {
+  background-color: beige;
+  color: black;
+  font-size: 16px;
+}
+```
+
+ID
+* An `id` can be used to identify a unique HTML element.
+
+```html
+<div class="footer">
+  <a href="">about me</a>
+  <a href="">github</a>
+</div>
+```
+
+```css
+div#footer {
+  background-color: black;
+  color: white;
+}
+```
+
+Pseudo-classes and pseudo-elements
+* Pseudo-classes allow you to style specific states of an element
+* In this example, the `:hover` pseudo-class lets you customize what the `<a>` tag will look like when a cursor is hovering over it.
+* `a:hover { }`
+
+Combinators
+* Combinators allow us to select `<p>` tag elements that are direct children of `<article>` elements using the child combinator (>).
+* `article > p { }`
 
 ### Specificity
 Specificity is how the browser decides which rule applies if multiple rules have different selectors. It is basically a measure of how specific a selector's selection will be:
@@ -78,16 +127,9 @@ However, if you set a width of 50% on an element, all of its descendants do not 
 
 ## Accessibility 101
 Color contrast
-* 
-
 Alt text
-* 
-
 Tabbing through objects
-* 
-
 Clear UX copy
-* 
 
 ## Deliverables
 * Import a [google font](https://fonts.google.com) in between the `<head>` tags in `application.html.erb`.
