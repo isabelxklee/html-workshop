@@ -1,0 +1,57 @@
+body {
+  font-family: "Syne", sans-serif;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+
+a {
+  color: hotpink;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/* div {
+  background-color: yellow;
+} */
+
+div.artist-name {
+  background-color: blue;
+}
+
+div > p {
+  color: black;
+}
+
+p.artist-description {
+  color: pink;
+}
+
+p#artist.artist-description {
+  color: blue;
+}
+
+button.primary {
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  padding: 18px;
+  border: none;
+  border-radius: 100px;
+}
+
+button.primary:hover {
+  font-size: 40px;
+  background-color: rgb(40, 25, 116);
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-areas:
+  "row1 row1-right"
+  "row2 row2-right"
+  "row3 row3-right";
+}

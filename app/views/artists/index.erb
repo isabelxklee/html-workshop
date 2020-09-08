@@ -1,5 +1,22 @@
 <h1> All the Artists</h1>
 
 <% @artists.each do |artist| %>
-  <%= link_to artist.name, artist_path(artist) %><br>
+  <div class="artist-name">
+    <%= link_to artist.name, artist_path(artist) %>
+    <div>
+      <p class="artist-description" id="artist">hello world</p>
+    </div>
+  </div>
 <% end %>
+
+<button class="primary">this is a button</button>
+<button class="secondary" disabled> this one's also a button</button>
+
+<% # 1. we could create a table %>
+<% # 2. we could use a grid and specify the columns %>
+<% # 3. we could create 2 divs and then specify the float property %>
+
+<div class="grid-container">
+  <div id="item-1">hello world</div>
+  <div id="item-2">anna says hi!</div>
+</div>
