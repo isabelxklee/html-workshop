@@ -28,8 +28,8 @@ a {
   color: black;
 }
 
-button {
-  margin: 30px 0px;
+button.primary {
+  margin: 30px 10px 30px 0px;
   border: 2px solid black;
   border-radius: 4px;
   background-color: white;
@@ -37,4 +37,24 @@ button {
   font-family: Georgia, serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+button.secondary {
+  margin: 30px 0px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+div#example.box {
+  background-color: #5dbcd2;
+  color: #042f66;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
 }
