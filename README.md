@@ -89,8 +89,6 @@ Tabbing through objects
 Clear UX copy
 * 
 
----
-
 ## Deliverables
 * Import a [google font](https://fonts.google.com) in between the `<head>` tags in `application.html.erb`.
 
@@ -106,7 +104,8 @@ Example:
 * Style a button and create a hover state and disabled state for it.
 * Create a colored background with a rounded border radius on the `/artists` page. Create an unordered list with the artists' names on top of this colored background.
 
----
-
-Sources and further reading:
+## Sources and further reading
+* [MDN web docs: CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
 * [MDN web docs: Cascade and Inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+* [Sylwia Vargas: CSS-lecture](https://github.com/sylwiavargas/CSS-Lecture-And-Exercises)
+* [Sylwia Vargas: Accessible-Web-101](https://github.com/sylwiavargas/Accessible-Web-101)
