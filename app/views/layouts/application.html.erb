@@ -5,11 +5,20 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <a href="" target="blank" class="header">home</a>
+      <a href="" target="blank" class="header">account</a>
+      <a href="" target="blank" class="header">settings</a>
+    </header>
+
+    <div class="body">
+      <%= yield %>
+    </div>
   </body>
 </html>
